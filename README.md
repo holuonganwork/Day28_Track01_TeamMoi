@@ -4,7 +4,7 @@
 
 | Họ tên | MSSV | Phần phụ trách | Góp ý đã đưa cho nhóm bạn |
 |---|---|---|---|
-| Hiển | 2A202601162 | Gartner-Lite (readiness) + AS-IS/TO-BE + kiến trúc tin cậy + setup repo/README | Phản biện với Vũ Nguyễn Bảo Sơn (case AI trong giáo dục): nội dung giáo dục cần chú trọng độ chính xác vì sai là dạy sai cho người học; cần làm rõ system prompt và nguồn tài liệu cho AI để tránh trả lời sai/lan man |
+| Trần Chí Hiển | 2A202601162 | Gartner-Lite (readiness) + AS-IS/TO-BE + kiến trúc tin cậy + setup repo/README | Phản biện với Vũ Nguyễn Bảo Sơn (case AI trong giáo dục): nội dung giáo dục cần chú trọng độ chính xác vì sai là dạy sai cho người học; cần làm rõ system prompt và nguồn tài liệu cho AI để tránh trả lời sai/lan man |
 | Hồ Lương An | 2A202601332 | Mollick (phân chia người–AI) + ADKAR (người dùng) + Lộ trình 30-60-90 + Dashboard v2/Memo | Phản biện với Vũ Nguyễn Bảo Sơn (case AI trong giáo dục): nội dung giáo dục cần chú trọng độ chính xác vì sai là dạy sai cho người học; cần làm rõ system prompt và nguồn tài liệu cho AI để tránh trả lời sai/lan man |
 
 
@@ -20,7 +20,7 @@
 - Nguyên nhân 1: ChatGPT chưa nắm được workflow, các tiêu chí hoàn thành chưa rõ (framework: Mollick + ADKAR Ability/Reinforcement + Gartner-Lite Vận hành; bằng chứng: quan sát trực tiếp cho thấy người viết phải tự xử lý đầu ra dài dòng sau khi AI viết).
 - Nguyên nhân 2: Chưa có guardrail chất lượng bắt buộc, brief, độ dài mục tiêu, nguồn/phiên bản và checklist QA. Vậy nên AI không biết phần nào cần giữ hoặc loại bỏ (framework: ADKAR Desire/Knowledge + Gartner-Lite Readiness; bằng chứng: vấn đề được quan sát trực tiếp trong workflow là nội dung thừa, dẫn đến con người phải tốn thời gian để review lại).
 
-**Gartner-Lite — tổ chức đã sẵn sàng chưa?**
+**Gartner-Lite: tổ chức đã sẵn sàng chưa?**
 
 | Trục | Nhận định | Kết quả |
 |---|---|---|
@@ -30,9 +30,9 @@
 | Vận hành (owner) | Bước "kiểm chứng" cuối workflow tồn tại nhưng chung chung, không có ai chịu trách nhiệm cụ thể rà soát độ dài/nội dung thừa một cách hệ thống. | THIẾU |
 | Hấp thụ (feedback loop) | Chưa có cơ chế ghi lại các lần AI viết dài để điều chỉnh prompt/brief về sau — lỗi lặp lại là sửa tay, không học được. | THIẾU |
 
-Kết luận: Direction đạt, nhưng Readiness và Absorption đều thiếu → chưa nên mở rộng dùng AI cho toàn bộ content, cần pilot nhỏ để sửa readiness trước khi mở rộng — khớp và củng cố 2 nguyên nhân gốc ở trên.
+Kết luận: Direction đạt, nhưng Readiness và Absorption đều thiếu → chưa nên mở rộng dùng AI cho toàn bộ content, cần pilot nhỏ để sửa readiness trước khi mở rộng khớp và củng cố 2 nguyên nhân gốc ở trên.
 
-**ADKAR — người dùng đang kẹt ở đâu?**
+**ADKAR: người dùng đang kẹt ở đâu?**
 
 | Bước | Chẩn đoán | Trạng thái |
 |---|---|---|
@@ -48,9 +48,9 @@ Kết luận: Direction đạt, nhưng Readiness và Absorption đều thiếu �
 - Người chịu trách nhiệm: AI chỉ tạo bản nháp, nhân viên marketing kiểm chứng, chủ quy trình content phê duyệt cuối và chịu trách nhiệm xuất bản, An theo dõi dashboard/feedback.
 - Khi AI không chắc chắn hoặc thiếu nguồn: gắn cờ `[CẦN KIỂM CHỨNG]`, không xuất bản, chuyển người duyệt claim, ghi log lỗi để cập nhật prompt, checklist hoặc kho nguồn.
 - Phân chia theo Mollick: người giữ quyền phê duyệt và ngoại lệ; AI hỗ trợ tham khảo, đọc brief, tạo và rút gọn nháp; chỉ tự động hóa kiểm tra định dạng/độ dài thấp rủi ro, không tự động xuất bản.
-- System prompt: viết rõ vai trò, giới hạn độ dài, tone, cấu trúc và yêu cầu bám sát brief ngay trong system prompt — để ChatGPT hiểu đúng ý định thay vì đoán, giảm sai sót và nội dung thừa.
+- System prompt: viết rõ vai trò, giới hạn độ dài, tone, cấu trúc và yêu cầu bám sát brief ngay trong system prompt để ChatGPT hiểu đúng ý định thay vì đoán, giảm sai sót và nội dung thừa.
 
-**Mollick — phân chia quyền hạn chi tiết**
+**Mollick: phân chia quyền hạn chi tiết**
 
 | Vùng | Cách áp dụng cho content marketing |
 |---|---|
@@ -81,7 +81,7 @@ Nguồn → Trích nguồn → QA mẫu → Chuyển người → Phản hồi
 | Chuyển người | Bản nháp không đạt checklist hoặc thiếu nguồn → gắn cờ `[CẦN KIỂM CHỨNG]`, không xuất bản, chuyển người duyệt. |
 | Phản hồi | Ghi log lỗi (vì sao dài/thiếu nguồn) để cập nhật prompt template, brief hoặc checklist cho vòng sau. |
 
-**Lộ trình 30-60-90 — ba cổng quyết định**
+**Lộ trình 30-60-90: ba cổng quyết định**
 
 | Giai đoạn | Việc chính | Owner | Dấu hiệu hoàn thành / cổng quyết định |
 |---|---|---|---|
@@ -94,7 +94,7 @@ Nguồn → Trích nguồn → QA mẫu → Chuyển người → Phản hồi
 Xem chi tiết tại [`dashboard/dashboard_hanh_dong_v2.xlsx`](dashboard/dashboard_hanh_dong_v2.xlsx) (bản trước phản biện: [`v1/dashboard_hanh_dong_v1.xlsx`](v1/dashboard_hanh_dong_v1.xlsx)).
 
 - Product metric: tỷ lệ bản nháp đạt checklist chất lượng ngay lần QA đầu, T0 đo 20 bài gần nhất, mục tiêu ≥80% ngày 60 và ≥85% ngày 90, nguồn bảng QA, owner An + QA content.
-- Workflow metric: thời gian từ lúc brief được duyệt hợp lệ đến lúc bản nháp đầu tiên gửi QA — tính bằng giờ (timestamp brief duyệt trừ timestamp gửi QA), T0 đo 10 brief hiện tại, mục tiêu ≤70% baseline ngày 60, nguồn log timestamp brief/draft, owner chủ quy trình content.
+- Workflow metric: thời gian từ lúc brief được duyệt hợp lệ đến lúc bản nháp đầu tiên gửi QA: tính bằng giờ (timestamp brief duyệt trừ timestamp gửi QA), T0 đo 10 brief hiện tại, mục tiêu ≤70% baseline ngày 60, nguồn log timestamp brief/draft, owner chủ quy trình content.
 - Chỉ số kiểm soát bổ sung: tỷ lệ claim/ý chính có nguồn kiểm chứng ≥95% và tỷ lệ phải sửa vì dài dòng/không bám brief ≤20% ngày 60, khi chỉ số xấu thì mổ lỗi mẫu, cập nhật prompt/checklist và giữ pilot.
 
 ## 6. Quyết định

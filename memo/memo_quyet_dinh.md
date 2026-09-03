@@ -1,6 +1,6 @@
 # Memo quyết định — Day28 Track 01
 
-> Bản v2 cho use case ChatGPT viết content marketing cho TUV Nord. Các mục tên nhóm phản biện/MSSV cần nhóm bổ sung từ biên bản Chặng 3 nếu có.
+> Bản v2 cho use case ChatGPT viết content marketing cho TUVNORD. Các mục tên nhóm phản biện/MSSV cần nhóm bổ sung từ biên bản Chặng 3 nếu có.
 
 ## 1. Vấn đề và nguyên nhân gốc
 
@@ -19,6 +19,8 @@
 
 1. V1 dùng các nhãn chung như “mức dùng”, “mục tiêu nhóm” và “đo tuần 1”, chưa chứng minh vấn đề dài dòng; v2 đổi thành product metric về tỷ lệ đạt QA lần đầu và workflow metric về thời gian brief → draft, kèm T0, target, source và owner.
 2. V1 chưa quy định hành động khi chỉ số xấu; v2 thêm tỷ lệ claim có nguồn, tỷ lệ sửa vì dài dòng/không bám brief, ngưỡng chặn xuất bản và human handoff để dashboard dẫn tới quyết định sửa/giữ pilot/mở rộng.
+3. Nhóm phản biện Vũ Nguyễn Bảo Sơn góp ý chưa hiểu chỉ số "thời gian brief → draft" là gì → làm rõ định nghĩa: tính bằng giờ, từ timestamp brief được duyệt đến timestamp bản nháp đầu gửi QA.
+4. Nhóm phản biện Vũ Nguyễn Bảo Sơn gợi ý viết system prompt rõ ràng hơn để ChatGPT hiểu đúng và tránh sai sót → thêm yêu cầu system prompt (vai trò, giới hạn độ dài, tone, cấu trúc, bám sát brief) vào mục "Cách làm mới".
 
 ## 4. Quyết định
 
